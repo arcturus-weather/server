@@ -22,7 +22,8 @@ pnpm install
 创建 `.env` 并填写
 
 ```
-MONGODB_URI=mongodb://root:root@mongodb:27017/users?authSource=admin&readPreference=primary # mongodb 地址
+# mongodb 地址
+MONGODB_URI=mongodb://root:root@mongodb:27017/users?authSource=admin&readPreference=primary
 
 SECRET=ice-weather # jwt 密钥
 
